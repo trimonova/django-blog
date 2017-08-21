@@ -25,7 +25,7 @@ SECRET_KEY = 'a$dfq^5y-g(qz$*sla_fa8zh#c(i@hm_1^7j0yqkmbz_(n^w$_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['trimonova.pythonanywhere.com']
+ALLOWED_HOSTS = ['trimonova.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
