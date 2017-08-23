@@ -17,3 +17,18 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+class Book():
+    def __init__(self, author, title, description, rating, imageUrl):
+        self.author = author
+        self.title = title
+        self.description = description
+        self.rating = rating
+        self.imageUrl = imageUrl
+
+    def __repr__(self, *args, **kwargs):
+        return self.author + '\n' + self.title + '\n'
+
+
+class BooksModel():
+    def __init__(self):
+        self.books = []
